@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/fondo_Reto1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 40vw;
+}
+
+.boxDiv1{
+    height: 25vh;
+}
+
+.boxDiv2Sup{
+    height: 15vh;
+}
+.boxDiv2Inf{
+    height: 25vh;
+}
+.boxDiv3Up{
+    height: 10vh;
+}
+.boxDiv3Down{
+    height: 10vh;
+}
