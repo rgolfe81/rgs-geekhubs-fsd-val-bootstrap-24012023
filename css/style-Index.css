@@ -1,0 +1,10 @@
+body{
+    margin-top: 10em;
+    background-color: grey;
+}
+.tamañoAncho{
+    width: 20vw;
+}
+.centrado{
+    align-items: center;
+}
