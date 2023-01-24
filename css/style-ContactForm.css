@@ -1,0 +1,10 @@
+.container {
+    height: 80vh;
+    width: 60vw;
+}
+.boxTitle{
+    height: 15vh;
+}
+.colorForm{
+    background-color: lightgrey;
+}
