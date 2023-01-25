@@ -1,0 +1,14 @@
+/* *{
+    background-color: green;
+}
+body{
+    background-color: red;
+} */
+.boxRow1{
+    background-color: lightblue;
+    height: 4vh;
+}
+.boxRow2{
+    background-color: blue;
+    height: 6vh;
+}
