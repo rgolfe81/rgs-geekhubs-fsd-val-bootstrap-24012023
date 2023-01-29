@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reto3 NavBar</title>
-    <link rel="stylesheet" href="../css/style-NavBar.css">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style-NavBar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
@@ -21,10 +21,10 @@
                 <div class="col-2">
                     <i class="bi bi-geo-alt-fill"></i><span> 123 street CH city</span>
                 </div>
-                <!-- Espacio vacío -->
+
                 <div class="col"> 
                 </div>
-                <!-- ------------- -->
+
                 <div class="col-1 text-end">
                     <a class=" text-decoration-none text-dark" href="#">Sign Up</a>
                 </div>
@@ -44,15 +44,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#"><i class="bi bi-envelope"></i> About</a>
                         </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle text-light" href="#" data-bs-toggle="dropdown"><i class="bi bi-gear"></i> Services</a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Watching new movies</a></li>
-                            <li><a class="dropdown-item" href="#">Listening music</a></li>
-                            <li><a class="dropdown-item" href="#">Play new games</a></li>
-                            <li><a class="dropdown-item" href="#">Learn new design</a></li>
+
+                        <!-- Botón dropdown -->
+
+                        <li class="nav-item nav-link dropdown">
+                          <a class="dropdown-toggle text-light text-decoration-none" href="#" id="navbarDropdown" rol="button"  data-bs-toggle="dropdown"><i class="bi bi-gear"></i> Services</a>
+                          <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-film"></i> Watching new movies</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-music-note-beamed"></i> Listening music</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-controller"></i> Play new games</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-easel"></i> Learn new design</a></li>
                           </ul>
                         </li>
+
+
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#"><i class="bi bi-clipboard2-fill"></i> Portfolio</a>
                         </li>
@@ -85,5 +90,7 @@
                 </div>
             </nav>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 /* *{
     background-color: green;
-}
-body{
-    background-color: red;
 } */
+body{
+    background-color: skyblue;
+}
 .boxRow1{
-    background-color: lightblue;
+    background-color: white;
     height: 4vh;
 }
 .boxRow2{
